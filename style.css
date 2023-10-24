@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: large;
+}
+header{
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(76, 150, 153);
+    
+   
+}
+
+.div-titulo{
+    flex: 80px;
+    border: 15px solid black;
+    width: 500%;
+    background-color: #fff;
+}
+
+nav{
+  background-color: rgb(223, 221, 217);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a :hover{
+    background-color: #fff;
+    color: cadetblue;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main p{
+    font-size: 30px;
+}
+
+
+aside{
+    flex: 30%;
+    background-color: darkgray;
+    padding: 10px;
+    text-align: center;
+} 
+
+section{
+    flex: 70%;
+    background-color: bisque;
+    
+}
+
+article{
+    margin-top: 30px;
+}
+
+article p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(109, 107, 107);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    border: 15px solid black;
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.historia{
+    margin: 30px;
+
+}
+
+.historia-1{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.articulos{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.input-padron{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.flexbox-2 { 
+    display:flex; 
+    justify-content: right;
+    height: 50px;
+}
+
+.enviar{
+    border-radius: 10px;
+    border: black 10px;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+td img{
+    width: 200px;
+    height: 250px;
+}
