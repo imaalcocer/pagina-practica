@@ -138,3 +138,37 @@ td img{
     width: 200px;
     height: 250px;
 }
+@media screen and (max-width:1024px)
+{
+    
+    .tarjeta
+    {
+        width: 218px;
+    }
+    .tarjeta img
+    {
+    width: 150px;
+    height: 180px;
+    }
+    header
+    {
+        flex-flow: column;
+    }
+}
+@media screen and (max-width:767px)
+   
+{
+    .tarjeta
+    {
+        width: 290px;
+    }
+    .tarjeta img
+    {
+    width: 150px;
+    height: 180px;
+    }
+    nav
+    {
+        flex-flow: column;
+    }
+}
